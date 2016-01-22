@@ -2,22 +2,80 @@
 layout: default
 ---
 
-<div class="home">
+<div class="content">
+  <div class="tab-container">
+    <div name="projects" id="tab-projects" class="tab active">
+      <span class="tab-header">Projects</span>
+    </div>
+    <div name="work" id="tab-work" class="tab">
+      <span class="tab-header">Work</span>
+    </div>
+  </div>
+  <div id="projects-content">  
+    {% for project in site.categories.project %}
+      <div class="project">
+        <div clas="project-heading">
+          <span class="project-title">
+            {% if project.link %}
+              <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+            {% else %}
+              {{ project.title }}
+            {% endif %}
+          </span><br>
+          <span class="project-date">
+            {{ project.date | date: "%B, %Y"}}
+          </span>
+        </div>
+        <div class="project-cover">
 
-  <h1 class="page-heading">Posts</h1>
+            {% if project.covervideo %}
+              <div class="video-container">
+                <iframe width="560" height="315" src="{{ project.covervideo }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+            {% endif %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if project.coverimage %}
+              <div class="image-container">
+                <img src="/assets/images/projects/{{ project.coverimage | prepend: site.baseurl}}"</img> 
+              </div>
+            {% endif %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        </div>
+        <div class="project-content">
+          {{ project.content }}
+          <b>Technologies </b> {{ project.technologies | join: ', ' }}
+        </div>
+        <hr>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
+  
+  <div id="work-content"></div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <script type="text/javascript">
+    var tabs = [];
+    var activeTab = 0;
 
+    function Tab(element, content, i){
+      this.element = element;
+      this.content = content;
+      this.order = i;
+      this.element.addEventListener("click", function(){
+        this.showContent();
+      }.bind(this));
+    }
+
+    Tab.prototype.showContent = function(){
+      tabs[activeTab].element.className = "tab";
+      tabs[activeTab].content.style.display = "none";
+      this.element.className = "tab active";
+      this.content.style.display = "block";
+      activeTab = this.order;
+    }
+
+    var tabElements = document.getElementsByClassName("tab");
+    for(var i=0; i<tabElements.length; i++){
+      tabs.push(new Tab(tabElements[i], document.getElementById(tabElements[i].getAttribute("name")+"-content"), i));
+    }
+  </script>
 </div>

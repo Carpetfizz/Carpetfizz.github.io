@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Summit Tech Help Committee"
+category: project
+covervideo: https://www.youtube.com/embed/JgWyr3GYP8I
+link: http://s-t-h-c.appspot.com/leapcapjs/#/
+technologies: [Python, Google App Engine, jQuery]
+---
+
+My high school was a forward thinking, tech driven school. This meant that there was a 1:1 student to laptop ratio. Being the complete nerd I am, I took pride in fixing the ever-failing HP laptops of my peers. I decided to scale my operation and create the Summit Tech Help Committee. In order to do this, I needed a support ticket system so I built one. STHC allows people to log into their Google account and file a support ticket. The ticket gets emailed to a Google group with everyone in the Committee. The automated email contains the issue and contact information of the filee.

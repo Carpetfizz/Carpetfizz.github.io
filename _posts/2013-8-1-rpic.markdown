@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Raspberry Pi Controller for iOS"
+category: project
+coverimage: rpic.jpg
+link: https://sensortower.com/ios/fr/ajay-ramesh/app/raspberry-pi-controller/661001511
+technologies: ["iOS", "Objective-C", "SSH", "Raspberry Pi", "Linux"]
+---
+
+I started my web development journey on the Raspberry Pi microcomputer. After I found out about SSH, I spent my 10th grade classes remote logging into my Pi and messing with my server. I wrote a small iPhone app that turned some common SSH commands into buttons. The user first connected to their Pi and got access to Restart, Shut Down, Check Heat, and custom command buttons. The app also allowed the user to upload HTML files to the server remotely. This app received around 5,000 downloads by the end of its lifetime.
