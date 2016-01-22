@@ -2,7 +2,7 @@
 layout: post
 title: "Raspberry Pi Controller for iOS"
 category: project
-coverimage: rpic.jpg
+coverimage: rpic.png
 link: https://sensortower.com/ios/fr/ajay-ramesh/app/raspberry-pi-controller/661001511
 technologies: ["iOS", "Objective-C", "SSH", "Raspberry Pi", "Linux"]
 ---

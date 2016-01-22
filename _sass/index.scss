@@ -1,14 +1,17 @@
-$accent: #34495e;
+$accent: #DADFE1;
+$font-color: #DADFE1;
 
 body {
   padding: 0px;
   margin: 0px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
+  background-color: #22313F;
+  color: $font-color;
 }
 
 a {
-  color: #0645AD;
+  color: $font-color;
 }
 
 .container {
@@ -30,7 +33,7 @@ a {
     margin-right: auto;
     width: 120px;
     border-radius: 50%;
-    border-color: $accent;
+    border-color: #34495e;
     border-width: 5px;
     border-style: solid;
     padding: 5px;
@@ -70,10 +73,14 @@ a {
   width: 100%;
   height: 50px;
   text-align: center;
+
   .tab {
     width: 50%;
     height: 100%;
     float: left;
+  }
+
+  .tab:hover {
   }
   
   #tab-projects {
@@ -84,12 +91,11 @@ a {
 
   .tab-header{
     display: block;
-    padding: 15px;
-    font-size: 24px;
+    padding-top: 24px;
+    font-size: 20px;
   }
   
   .active {
-    text-decoration: underline;
   }
 }
 
@@ -105,21 +111,24 @@ a {
   .project-heading {
     width: 100%;
     height: 50px;
-    padding-top: 10px;
   }
   
   .project-title {
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .project-date {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .project-cover {
     width: 100%;
     height: 100%;
     margin-top: 5px;
+  }
+
+  .project-description {
+    color: #D2D7D3;
   }
 
   /* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
