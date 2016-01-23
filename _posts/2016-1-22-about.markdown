@@ -1,0 +1,8 @@
+---
+title: "about"
+category: about
+---
+
+<img src="/assets/images/ajay1.jpg" class="about-image">
+
+Hi, I'm a programmer from San Jose, California. I love building software that solves interesting problems. I'm passionate about using the web to deliver services that *make the world user friendly*. If you'd like to chat or contact me about work opportunities, email me at ajayramesh.dev(at)gmail.com

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Recycled"
 category: project
 coverimage: recycled.jpg

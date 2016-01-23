@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "They Sound Like"
 link: http://app-theysoundlike.rhcloud.com/
 category: project

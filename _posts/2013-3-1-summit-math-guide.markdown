@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Summit Math Guide"
 category: project
 coverimage: math-guide.png

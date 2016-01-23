@@ -23,6 +23,20 @@ a {
   }
 }
 
+@mixin angle-text($angle) {
+  /* Safari */
+  -webkit-transform: rotate($angle);
+
+  /* Firefox */
+  -moz-transform: rotate($angle);
+
+  /* IE */
+  -ms-transform: rotate($angle);
+
+  /* Opera */
+  -o-transform: rotate($angle);
+}
+
 .header {
   padding: 10px;
   text-align: center;
@@ -75,7 +89,7 @@ a {
   text-align: center;
 
   .tab {
-    width: 50%;
+    width: 33%;
     height: 100%;
     float: left;
   }
@@ -94,8 +108,13 @@ a {
     padding-top: 24px;
     font-size: 20px;
   }
-  
+
+  .tab-header:hover{
+    cursor: pointer;
+  }
+
   .active {
+    font-weight: bold;
   }
 }
 
@@ -161,6 +180,16 @@ a {
 #work-content {
   width: 100%;
   height: 300px;
-  background-color: purple;
   display: none;
+}
+
+#about-content{
+  width: 100%;
+  display: none;
+  .about-image{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

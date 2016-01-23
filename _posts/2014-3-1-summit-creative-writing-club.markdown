@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Summit Creative Writing Club"
 link: http://summitcwc.appspot.com/
 category: project

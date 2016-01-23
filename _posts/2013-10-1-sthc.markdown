@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Summit Tech Help Committee"
 category: project
 covervideo: https://www.youtube.com/embed/JgWyr3GYP8I

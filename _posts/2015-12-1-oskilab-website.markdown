@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Oskilab Website"
 category: project
 coverimage: oskilab.jpg

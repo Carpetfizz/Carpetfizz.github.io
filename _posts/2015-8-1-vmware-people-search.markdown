@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "VMware People Search"
 category: project
 technologies: [Titanium Appcelerator, Javascript, Node.js, LDAP]

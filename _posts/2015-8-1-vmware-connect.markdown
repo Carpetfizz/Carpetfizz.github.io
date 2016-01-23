@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "VMware Connect"
 category: project
 coverimage: vconnect.png

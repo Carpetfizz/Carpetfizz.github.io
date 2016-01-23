@@ -8,7 +8,10 @@ layout: default
       <span class="tab-header">/projects</span>
     </div>
     <div name="work" id="tab-work" class="tab">
-      <span class="tab-header">/work</span>
+      <span class="tab-header">/work+edu</span>
+    </div>
+    <div name="about" id="tab-about" class="tab">
+      <span class="tab-header">/about</span>
     </div>
   </div>
   <hr>
@@ -51,16 +54,27 @@ layout: default
     {% endfor %}
   </div>
   
-  <div id="work-content"></div>
+  <div id="work-content">
+    {% for post in site.categories.work %}
+      {{ post.content }}
+    {% endfor %}
+  </div>
+
+  <div id="about-content">
+    {% for post in site.categories.about %}
+      {{ post.content }}
+    {% endfor %}
+  </div>
 
   <script type="text/javascript">
     var tabs = [];
     var activeTab = 0;
 
-    function Tab(element, content, i){
+    function Tab(element, content, i, tabName){
       this.element = element;
       this.content = content;
       this.order = i;
+      this.tabName = tabName;
       this.element.addEventListener("click", function(){
         this.showContent();
       }.bind(this));
@@ -71,12 +85,26 @@ layout: default
       tabs[activeTab].content.style.display = "none";
       this.element.className = "tab active";
       this.content.style.display = "block";
+      if(this.order > 0){
+        window.location.hash = this.tabName;
+      }
       activeTab = this.order;
     }
 
     var tabElements = document.getElementsByClassName("tab");
     for(var i=0; i<tabElements.length; i++){
-      tabs.push(new Tab(tabElements[i], document.getElementById(tabElements[i].getAttribute("name")+"-content"), i));
+      var tabName = tabElements[i].getAttribute("name");
+      tabs.push(new Tab(tabElements[i], document.getElementById(tabName+"-content"), i, tabName));
     }
+
+    if(window.location.hash){
+      console.log(window.location.hash);
+      for(var j=0; j<tabs.length; j++){
+        if(tabs[j].tabName == window.location.hash.replace("#", "")){
+          tabs[j].showContent();
+        }
+      }
+    }
+
   </script>
 </div>

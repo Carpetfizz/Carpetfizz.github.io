@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Summit Talks"
 category: project
 coverimage: summit-talks.png

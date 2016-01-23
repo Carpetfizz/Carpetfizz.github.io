@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "leapcapjs"
 category: project
 covervideo: https://www.youtube.com/embed/zt22FlHcWwk

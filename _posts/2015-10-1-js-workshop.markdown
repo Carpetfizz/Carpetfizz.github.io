@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "JS Workshop for Hackers@Berkeley"
 category: project
 coverimage: js-workshop.jpg

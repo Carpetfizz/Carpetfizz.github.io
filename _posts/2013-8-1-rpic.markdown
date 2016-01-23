@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Raspberry Pi Controller for iOS"
 category: project
 coverimage: rpic.png

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "vr-lightsaber"
 category: project
 covervideo: https://www.youtube.com/embed/J9cgO_PlvuE #YouTube Embed URL
