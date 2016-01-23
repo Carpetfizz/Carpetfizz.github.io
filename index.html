@@ -87,6 +87,8 @@ layout: default
       this.content.style.display = "block";
       if(this.order > 0){
         window.location.hash = this.tabName;
+      }else{
+        window.location.hash = "";
       }
       activeTab = this.order;
     }
