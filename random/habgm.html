@@ -1,0 +1,70 @@
+<html>
+	<style>
+		body {
+		  margin: 0px;
+		  padding: 0px;
+		}
+
+		#c{
+		  height: 100%;
+		  width: 100%;
+		  padding: 0px;
+		  margin: 0px;
+		}
+	</style>
+	<script type="text/javascript">
+		var canvas = document.getElementById("c");
+
+		var ctx = canvas.getContext("2d");
+		var WIDTH = window.innerWidth;
+		var HEIGHT = window.innerHeight;
+		var FPS = 1;
+		var timeout;
+
+		function init() {
+		  window.addEventListener("resize", resizeCanvas, false);
+		  resizeCanvas();
+		}
+
+		function resizeCanvas(){
+		  WIDTH = window.innerWidth;
+		  HEIGHT = window.innerHeight;
+		  c.width = WIDTH;
+		  c.height = HEIGHT;
+		  clearTimeout(timeout);
+		  changeColor();
+		}
+
+		function changeColor() {
+		  ctx.fillStyle = getRandomColor();
+		  ctx.fillRect(0, 0, WIDTH, HEIGHT);
+		  drawText();
+		  timeout = setTimeout(function(){
+		    requestAnimationFrame(changeColor);
+		  }, 1000 / FPS); 
+		}
+
+		function drawText(){
+		  ctx.font = "100px Arial";
+		  ctx.fillStyle = "white";
+		  ctx.textAlign = "center";
+		  ctx.fillText("tiny.cc/HABgm", canvas.width/2, canvas.height/2);
+		}
+
+		/*http://stackoverflow.com/questions/1484506/random-color-generator-in-javascript because I'm too lazy*/
+		function getRandomColor() {
+		  
+		    var letters = '0123456789ABCDEF'.split('');
+		    var color = '#';
+		    for (var i = 0; i < 6; i++ ) {
+		        color += letters[Math.floor(Math.random() * 16)];
+		    }
+		    return color;
+		}
+
+		init();
+	</script>
+	<body>
+		<canvas id="c"></canvas>
+	</body>
+</html>
