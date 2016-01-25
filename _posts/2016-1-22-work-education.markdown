@@ -3,6 +3,8 @@ title: "work+education"
 category: work
 ---
 
+Here's a [PDF Resume](/downloads/AjayRameshResume.pdf)
+
 **Education**
 
 University of California, Berkeley (2015 - 2019)
