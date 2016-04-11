@@ -11,37 +11,37 @@ To preserve authenticity of my thoughts at present, this writing will not be edi
 
 I'll start at the very beginning of my conundrum, which started around 2014. I read a tweet from a novelty account (probably @horse_js) that said something along the lines of "all your apps are CRUD". For the uninitiated, CRUD stands for "create, read, update, and destroy" the four basic operations you can do on data. Most of the tools and services we use can be reduced to these operations. Let's look at a few examples:
 
-	- Email
-		- **Create** an Email
-			- Store and send a string of characters over a network
-		- **Read** an Email
-			- Retrieve a string of characters from a database
-		- **Update** an Email
-			- Store a string of characters to a database
-		- **Destroy** an Email
-			- Delete a string of characters from a database
+- Email
+	- **Create** an Email
+		- Store and send a string of characters over a network
+	- **Read** an Email
+		- Retrieve a string of characters from a database
+	- **Update** an Email
+		- Store a string of characters to a database
+	- **Destroy** an Email
+		- Delete a string of characters from a database
 
-	- Social Networking
-		- **Create** a Post
-			- Store a string of characters to a database
-		- **Read** a Post
-			- Retrieve a string of characters from a database
-		- **Update** a Post
-			- Store a string of characters to a database
-		- **Destroy** a Post
-			- Delete a string of characters from a database
+- Social Networking
+	- **Create** a Post
+		- Store a string of characters to a database
+	- **Read** a Post
+		- Retrieve a string of characters from a database
+	- **Update** a Post
+		- Store a string of characters to a database
+	- **Destroy** a Post
+		- Delete a string of characters from a database
 
-	- Photosharing
-		- **Create** a Photo
-			- Store an image in a directory, store metadata in database
-		- **Read** a Photo
-			- Retrieve an image from a directory, retrieve metadata from database
-		- **Update** a Photo
-			- Store metadata in database
-		- **Destroy** a Photo
-			- Delete image from a directory, delete metadata from database
+- Photosharing
+	- **Create** a Photo
+		- Store an image in a directory, store metadata in database
+	- **Read** a Photo
+		- Retrieve an image from a directory, retrieve metadata from database
+	- **Update** a Photo
+		- Store metadata in database
+	- **Destroy** a Photo
+		- Delete image from a directory, delete metadata from database
 
-	...
+...
 
 Notice a pattern? The only thing that is really changing between the examples is the name we give the data. A "Post", a "Tweet", and an "Email" are inherently just a string of characters being moved around in a database, presented in different ways, making the respective services unique. In no way am I trying to diminish the hard work of the engineers and designers who keep these services running because doing it at scale is an entirely different challenge. I'm also not trying to say that the technology that drives these services are short of amazing - I'm talking about the end user.
 
