@@ -47,7 +47,7 @@ Notice a pattern? The only thing that is really changing between the examples is
 
 We have reached a point where the end user takes the "CRUD" of data for granted. Emails are expected to be read, Tweets are expected to be shared, and photos are expected to be commented on. This is a good thing, because it follows the natural progression of technology - people seamlessly adopting what was once arcane.
 
-However, I assert that when something is no longer arcane, **it is no longer magical**. We need new technology that will once again envoke feelings of awe and wonder when using computers. Personally, I don't feel any awe or wonder when I send an email, and I doubt most people do. Fields like virtual reality, augmented reality, and autonomous vehicles have once again captured my fascination with computers because they are surrounded by an aura of mystique, unlike CRUD apps.
+However, I assert that when something is no longer arcane, **it is no longer magical**. We need new technology that will once again envoke feelings of awe and wonder when using computers. Personally, I don't feel any awe or wonder when I send an email, and I doubt most people do. Fields like virtual reality, augmented reality, and autonomous vehicles have once again captured my fascination with computers because they are surrounded by an aura of mystery, unlike CRUD apps.
 
 The magic of this new technology will naturally decay until something else crops up in place of it, thus pushing the envelope. Building more CRUD is the best way to push society forward, but not the best way to push technology forward.
 
