@@ -3,7 +3,7 @@ title: "work+education"
 category: work
 ---
 
-Here's my [resume](https://github.com/Carpetfizz/Carpetfizz.github.io.git)
+Here's my [resume](https://docs.google.com/document/d/1mGe2gr62DJSMdaWsVMOq58ckhC_8R1Ipst47NKJxYP0/edit?usp=sharing)
 
 **Education**
 
