@@ -3,7 +3,7 @@ title: "work+education"
 category: work
 ---
 
-Here's a [PDF Resume](/downloads/AjayRameshResume.pdf)
+Here's my [resume](https://github.com/Carpetfizz/Carpetfizz.github.io.git)
 
 **Education**
 
@@ -12,6 +12,10 @@ University of California, Berkeley (2015 - 2019)
 Summit Public Schools, Tahoma (2011 - 2015)
 
 **Work**
+
+*January 2017 - May 2017*
+
+Intern - **Tesla**
 
 *September 2015 - Present*
 
