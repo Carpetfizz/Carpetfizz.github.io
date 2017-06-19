@@ -13,9 +13,9 @@ Summit Public Schools, Tahoma (2011 - 2015)
 
 **Work**
 
-*January 2017 - May 2017*
+*January 2017 - June 2017*
 
-Intern - **Tesla**
+Intern (Software Engineering - Supply Chain Automation) - **Tesla**
 
 *September 2015 - Present*
 
