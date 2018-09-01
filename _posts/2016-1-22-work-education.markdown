@@ -7,6 +7,8 @@ Here's my [resume](https://docs.google.com/document/d/1mGe2gr62DJSMdaWsVMOq58ckh
 
 **Education**
 
+BA, Computer Science
+
 University of California, Berkeley (2015 - 2019)
 
 Summit Public Schools, Tahoma (2011 - 2015)
@@ -31,7 +33,7 @@ Contract Software Engineer - **VMware**
 
 *September 2014 - April 2015*
 
-Academic Intern - **Facebook**
+Intern - **Facebook**
 
 *June 2014 - August 2014*
 
