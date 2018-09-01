@@ -13,6 +13,9 @@ Summit Public Schools, Tahoma (2011 - 2015)
 
 **Work**
 
+*May 2018 - August 2018*
+Camera Engineering Intern - **Apple**
+
 *January 2017 - June 2017*
 
 Intern (Software Engineering - Supply Chain Automation) - **Tesla**
